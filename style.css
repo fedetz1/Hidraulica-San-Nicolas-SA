@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'open sans' ;
+}
 .imagen{
     max-height: 100vh;
+}
+.carousel-inner{
+    max-height: 25rem;
 }
 .fondo{
     height: 100vh;
@@ -107,26 +113,41 @@ header .textos-header{
     }
     
  }
+
+ @media(max-width: 520px) { 
+    .ancho{
+        width: 350px !important;
+    }
+    
+}
+ @media(max-width: 768px) { 
+     .ancho{
+         max-width: 500px !important;
+     }
+     
+}
 /* // Medium devices (tablets, 768px and up) */
+
 @media (min-width: 768px) { 
+    
     .textoabajo{
         max-width:800px;
     }
 
- }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
     .imageness{
         display:inline;
         width: 150px;
     }
+ }
 
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
 }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+    
 
 }
 
