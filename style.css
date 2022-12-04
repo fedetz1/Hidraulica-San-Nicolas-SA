@@ -92,7 +92,11 @@ header .textos-header{
     color:#fff;
 }
 
-
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+}
 @media screen and (max-width: 576px) { 
     .textos-header h1{
         font-size: 35px;
