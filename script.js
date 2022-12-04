@@ -6,5 +6,17 @@ $(window).scroll(function() {
     else{
         $("#menu").removeClass("colorfondo");
         $("#boton").removeClass("transparente");
+        
+        
     }
 });
+
+function fondouwu(){    
+    hola=document.getElementById("menu")
+    if(menu.classList.contains("fondotrans")==false){
+        $("#menu").addClass("fondotrans");
+    }
+    else{
+        $("#menu").removeClass("fondotrans");
+    }
+}
