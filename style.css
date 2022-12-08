@@ -12,6 +12,9 @@ body{
 .carousel-inner{
     max-height: 25rem;
 }
+.maximo{
+    max-width: 500px;
+}
 .fondo{
     height: 100vh;
     background-image: url(./img/ha.jpg);
@@ -55,8 +58,22 @@ body{
     background-color: rgb(124, 124, 124);
 }
 
-
-
+.colorgris{
+    background-color: #f2f2f2
+}
+.circulo{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 50%);
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 header {
     width: 100%;

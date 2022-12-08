@@ -1,18 +1,18 @@
 $(window).scroll(function() {
     if ($("#menu").offset().top >450) {
-        $("#menu").addClass("colorfondo");
+        $("#menu").addClass("bg-dark");
         $("#boton").addClass("transparente");
+        $("#boton").addClass("bg-light");
     }
     else{
-        $("#menu").removeClass("colorfondo");
+        $("#menu").removeClass("bg-dark");
         $("#boton").removeClass("transparente");
-        
+        $("#boton").removeClass("bg-light");
         
     }
 });
 
 function fondouwu(){    
-    hola=document.getElementById("menu")
     if(menu.classList.contains("fondotrans")==false){
         $("#menu").addClass("fondotrans");
     }
@@ -22,5 +22,12 @@ function fondouwu(){
 
     
 }
+
+$("#items").click(function(){
+    $('.navbar-collapse').collapse('hide');
+    $("#menu").removeClass("fondotrans");
+ });
+
+
 
 
