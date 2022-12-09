@@ -27,7 +27,3 @@ $("#items").click(function(){
     $('.navbar-collapse').collapse('hide');
     $("#menu").removeClass("fondotrans");
  });
-
-
-
-
