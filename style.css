@@ -61,6 +61,10 @@ body{
 .colorgris{
     background-color: #f2f2f2
 }
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+}
+
 .circulo{
     background: #860606;
     color: #fff;
