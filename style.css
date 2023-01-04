@@ -62,9 +62,16 @@ body{
     background-color: #f2f2f2
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    filter: invert(100%);
+    filter:invert()
 }
-
+.prevaa{
+    position: absolute;
+    left: 0px;
+}
+.nextaa{
+    position: absolute;
+    right: 0px;
+}
 .circulo{
     background: #860606;
     color: #fff;
@@ -144,20 +151,23 @@ header .textos-header{
     }
     
     
+    
 }
  @media(max-width: 768px) { 
      .ancho{
          max-width: 500px !important;
      }
-     .rotoo{
+    /* .rotoo{
         display: flex;
         justify-content: center;
-    }
+    } */
     .textouwu{
         max-width: 500px;
         text-align: center;
     }
-     
+    .auwu{
+        height: 1000px !important;
+    }
 }
 /* // Medium devices (tablets, 768px and up) */
 
